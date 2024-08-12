@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "451010889778",
+    "project_id": "fir-shoemart-6bb19",
+    "storage_bucket": "fir-shoemart-6bb19.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:451010889778:android:39f6e3cfcaef3a843cd42b",
+        "android_client_info": {
+          "package_name": "com.example.shoemart"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCBqJpx0hKK3RY6ZkAD9TpLbH5QDN28YNY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

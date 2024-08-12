@@ -1,0 +1,130 @@
+name: signup
+description: "A new Flutter project."
+# The following line prevents the package from being accidentally published to
+# pub.dev using `flutter pub publish`. This is preferred for private packages.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+# The following defines the version and build number for your application.
+# A version number is three numbers separated by dots, like 1.2.43
+# followed by an optional build number separated by a +.
+# Both the version and the builder number may be overridden in flutter
+# build by specifying --build-name and --build-number, respectively.
+# In Android, build-name is used as versionName while build-number used as versionCode.
+# Read more about Android versioning at https://developer.android.com/studio/publish/versioning
+# In iOS, build-name is used as CFBundleShortVersionString while build-number is used as CFBundleVersion.
+# Read more about iOS versioning at
+# https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
+# In Windows, build-name is used as the major, minor, and patch parts
+# of the product and file versions while build-number is used as the build suffix.
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.4.3 <4.0.0'
+
+# Dependencies specify other packages that your package needs in order to work.
+# To automatically upgrade your package dependencies to the latest versions
+# consider running `flutter pub upgrade --major-versions`. Alternatively,
+# dependencies can be manually updated by changing the version numbers below to
+# the latest version available on pub.dev. To see which dependencies have newer
+# versions available, run `flutter pub outdated`.
+dependencies:
+  flutter:
+    sdk: flutter
+  font_awesome_flutter: ^10.7.0
+  http: ^1.2.1
+  dropdown_button2: ^2.3.9
+  shared_preferences: ^2.2.3
+  firebase_core: ^3.2.0
+  cloud_firestore: ^5.1.0
+  firebase_storage: ^12.1.1
+  firebase_messaging: ^15.0.3
+  firebase_auth: ^5.1.2
+  cupertino_icons: ^1.0.6
+  provider: ^6.1.2
+  uuid: ^4.4.2
+  flutter_credit_card: ^4.0.1
+  animated_splash_screen: ^1.3.0
+  lottie: ^3.1.2
+  image_picker: ^1.1.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_launcher_icons: "^0.13.1"
+
+flutter_launcher_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "Images/Screenshot 2024-07-24 145851.png"
+
+flutter:
+
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
+
+  assets:
+    - Lottie/Animation - 1721677009678.json
+    - Images/shoes men/Screenshot 2024-04-14 214629.png
+    - Images/shoes men/Screenshot 2024-04-14 214651.png
+    - Images/shoes woman/Screenshot 2024-04-09 135413.png
+    - Images/shoes woman/Screenshot 2024-04-09 135427.png
+    - Images/Accessories/Screenshot 2024-04-09 135207.png
+    - Images/shoes men/Screenshot 2024-04-14 214823.png
+    - Images/shoes men/Screenshot 2024-04-14 214837.png
+    - Images/shoes men/Screenshot 2024-04-14 214958.png
+    - Images/shoes men/Screenshot 2024-04-14 214823.png
+    - Images/shoes men/Screenshot 2024-04-14 214922.png
+    - Images/shoes men/Screenshot 2024-04-09 001313.png
+    - Images/shoes men/3.png
+    - Images/shoes men/2.png
+    - Images/shoes men/1.png
+    - Images/shoes men/4.png
+    - Images/shoes men/5.png
+    - Images/shoes woman/Screenshot 2024-05-06 003507.png
+    - Images/shoes woman/Screenshot 2024-05-06 003603.png
+    - Images/shoes woman/Screenshot 2024-05-06 003643.png
+    - Images/shoes woman/Screenshot 2024-05-06 003545.png
+    - Images/shoes woman/Screenshot 2024-05-06 003524.png
+    - Images/shoes woman/Screenshot 2024-05-06 003657.png
+    - Images/Accessories/Screenshot 2024-05-06 005423.png
+    - Images/Accessories/Screenshot 2024-05-06 005442.png
+    - Images/Accessories/Screenshot 2024-05-06 005516.png
+    - Images/Accessories/Screenshot 2024-05-06 005516.png
+    - Images/Accessories/Screenshot 2024-05-06 005629.png
+    - Images/Accessories/Screenshot 2024-05-06 005705.png
+    - Images/shoes men/Screenshot 2024-05-06 020831.png
+    - Images/shoes men/Screenshot 2024-05-06 020852.png
+    - Images/shoes woman/Screenshot_2024-08-10_135118-removebg-preview.png
+    - Images/shoes woman/Screenshot_2024-08-10_135130-removebg-preview.png
+    - Images/shoes woman/Screenshot_2024-08-10_142023-removebg-preview.png
+    - Images/shoes woman/Screenshot_2024-08-10_141957-removebg-preview.png
+    - Images/Accessories/Screenshot_2024-08-10_150840-removebg-preview.png
+    - Images/Accessories/Screenshot_2024-08-10_150909-removebg-preview.png
+    - Images/Accessories/Screenshot_2024-08-10_152904-removebg-preview.png
+    - Images/Accessories/Screenshot_2024-08-10_152926-removebg-preview.png
+    - Images/shoes men/Screenshot 2024-08-10 203224.png
+    - Images/shoes men/Screenshot 2024-08-10 203235.png
+    - Images/shoes men/Screenshot 2024-08-10 204523.png
+    - Images/shoes men/Screenshot 2024-08-10 204541.png
+    - Images/shoes woman/Screenshot_2024-08-10_205100-removebg-preview.png
+    - Images/shoes woman/Screenshot_2024-08-10_205047-removebg-preview.png
+    - Images/Accessories/Screenshot_2024-08-10_211324-removebg-preview.png
+    - Images/Accessories/Screenshot_2024-08-10_211348-removebg-preview.png
+    - Images/footwear-shoes-production-isometric-composition-with-view-designers-workplace-with-computer-shoes-shelves-illustration_1284-62044-removebg-preview.png
+     
+  fonts:
+    - family: AbrilFatface
+      fonts:
+        - asset: Font\AbrilFatface-Regular.ttf
+    - family: Teko
+      fonts:
+        - asset: Font/Teko/static/Teko-Bold.ttf
+    - family: PlayfairDisplay
+      fonts:
+        - asset: Font/Playfair_Display/static/PlayfairDisplay-Black.ttf
+    - family: Oswald
+      fonts:
+        - asset: Font/Oswald/static/Oswald-Bold.ttf
+  
